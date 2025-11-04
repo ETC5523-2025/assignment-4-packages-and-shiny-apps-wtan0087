@@ -1,7 +1,6 @@
 library(shiny)
 library(ggplot2)
 library(tidyverse)
-library(tidyr)
 library(plotly)
 
 data("HAI_data", package = "BHAI.AS4")

@@ -1,0 +1,19 @@
+Package: BHAI.AS4
+Title: Interactive Exploration of BHAI Dataset
+Version: 0.0.0.9000
+Authors@R: 
+    person("William", "Tang", , "wtan0087@student.monash.edu", role = c("aut", "cre"))
+Description: This R package provides tools for exploring the BHAI sample dataset on healthcare-associated infections (HAIs).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

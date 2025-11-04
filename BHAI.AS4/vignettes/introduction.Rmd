@@ -1,0 +1,35 @@
+---
+title: "introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(BHAI.AS4)
+library(ggplot2)
+```
+
+```{r}
+summary(HAI_data)
+
+ggplot(HAI_data, aes(x = Infection)) +
+  geom_col(aes(y = Deaths, fill = "Deaths"), position = "dodge") +
+  geom_col(aes(y = DALY, fill = "DALYs"), position = "dodge") +
+  theme_minimal(base_size = 14) +
+  labs(title = "Deaths and DALYs per 100,000 population",
+       y = "Per 100,000 population",
+       x = "Infection Type",
+       fill = "Metric")
+```
+
+This vignette demonstrates the distribution of deaths and DALYs per 100,000 population for different types of HAIs in Germany (2011). From the plot, it can be observed that SSI has the highest DALYs while HAP has the highest deaths.

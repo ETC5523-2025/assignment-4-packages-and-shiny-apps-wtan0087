@@ -7,6 +7,9 @@ healthcare-associated infections (HAIs). It includes:
 - Functions for loading and preparing the dataset.
 - Example vignettes to reproduce key analyses.
 
+Visit the pkgdown site for full documentation, function reference, and vignettes: 
+[BHAI.AS4 pkgdown site](https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-wtan0087/)
+
 ## Installation
 
 ``` r
@@ -28,3 +31,6 @@ How to use
 library(BHAI.AS4)
 launch_app()
 ```
+
+
+

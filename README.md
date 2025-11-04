@@ -1,9 +1,3 @@
-
-# BHAI.AS4
-
-<!-- badges: start -->
-<!-- badges: end -->
-
 # BHAI.AS4: Interactive Exploration of BHAI Dataset
 
 This R package provides tools for exploring the BHAI dataset on
@@ -20,10 +14,10 @@ healthcare-associated infections (HAIs). It includes:
 install.packages("remotes")
 
 # Install BHAI.AS4 package from local directory
-remotes::install_github("wtan0087/BHAI.AS4")
+remotes::install_github("ETC5523-2025/assignment-4-packages-and-shiny-apps-wtan0087")
 
 # Install required packages
-install.packages(c("ggplot2", "dplyr", "shiny", "tidyr"))
+install.packages(c("ggplot2", "tidyverse", "shiny", "plotly"))
 ```
 
 ## Usage
